@@ -1,3 +1,10 @@
-RAJU VEGETABLES refresh-session fix.
+RAJU VEGETABLES08
 
-The owner login session and current section are kept in sessionStorage so a page refresh restores the same app section. Closing the browser/tab clears the session and requires login again. Business data remains in localStorage.
+This version uses the supplied RAJU VEGETABLES brand logo throughout the web app.
+
+Files:
+- index.html
+- assets/raju-vegetables-logo.jpg
+
+Replace the existing index.html in the same GitHub repository and upload the assets folder alongside it.
+Owner login remains the existing owner flow.
