@@ -1,7 +1,3 @@
-RAJU VEGETABLES02
+RAJU VEGETABLES refresh-session fix.
 
-Replace the existing index.html in the same GitHub repository.
-
-Owner login accepts raju/Raju/RAJU (case-insensitive) with the existing password.
-Customer pages now include customer bills with image sharing.
-Image sharing generates the PNG synchronously before navigator.share so Android user activation is preserved.
+The owner login session and current section are kept in sessionStorage so a page refresh restores the same app section. Closing the browser/tab clears the session and requires login again. Business data remains in localStorage.
